@@ -97,10 +97,14 @@ button:hover {
   border-radius: 14px;
   padding: 18px;
   position: relative;
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
 }
 
 .modal-content img {
   width: 100%;
+  height: auto;
+  display: block;
   border-radius: 10px;
   border: 1px dashed rgba(255, 255, 255, 0.35);
 }
