@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>绒雪喵呜三角洲俱乐部</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <img
+        src="images/image1-placeholder.jpg"
+        alt="绒雪喵呜三角洲俱乐部 Logo（图片1号位）"
+        class="logo"
+      />
+      <div>
+        <h1>绒雪喵呜三角洲俱乐部</h1>
+        <p class="subtitle">欢迎来到我们的专属俱乐部空间</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="card intro">
+        <h2>主页简介</h2>
+        <p>
+          这里是绒雪喵呜三角洲俱乐部的线上小站，主打轻松、效率与陪伴体验。无论你是新朋友还是老朋友，都可以在这里快速找到对应入口。
+        </p>
+        <p>
+          我们持续更新服务内容和互动玩法，欢迎随时联系，祝你在这里玩得开心、下单顺利！
+        </p>
+      </section>
+
+      <section class="card actions">
+        <h2>快捷入口</h2>
+        <div class="button-grid">
+          <button type="button" data-modal-target="boss-modal">老板群</button>
+          <button type="button" data-modal-target="order-modal">我要下单</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" id="boss-modal" aria-hidden="true">
+      <div class="modal-content">
+        <button class="close" type="button" data-close>&times;</button>
+        <h3>老板群二维码</h3>
+        <img src="images/image2-placeholder.jpg" alt="老板群二维码（图片2号位）" />
+      </div>
+    </div>
+
+    <div class="modal" id="order-modal" aria-hidden="true">
+      <div class="modal-content order-content">
+        <button class="close" type="button" data-close>&times;</button>
+        <h3>我要下单</h3>
+        <div class="button-grid nested">
+          <button type="button" data-modal-target="fun-modal">趣味娱乐单</button>
+          <button type="button" data-modal-target="escort-modal">护航保底单</button>
+          <button type="button" data-modal-target="raidao-modal">跑刀项目</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="fun-modal" aria-hidden="true">
+      <div class="modal-content">
+        <button class="close" type="button" data-close>&times;</button>
+        <h3>趣味娱乐单（图片3号位）</h3>
+        <img src="images/image3-placeholder.jpg" alt="趣味娱乐单（图片3号位）" />
+      </div>
+    </div>
+
+    <div class="modal" id="escort-modal" aria-hidden="true">
+      <div class="modal-content">
+        <button class="close" type="button" data-close>&times;</button>
+        <h3>护航保底单（图片4号位）</h3>
+        <img src="images/image4-placeholder.jpg" alt="护航保底单（图片4号位）" />
+      </div>
+    </div>
+
+    <div class="modal" id="raidao-modal" aria-hidden="true">
+      <div class="modal-content">
+        <button class="close" type="button" data-close>&times;</button>
+        <h3>跑刀项目（图片5号位）</h3>
+        <img src="images/image5-placeholder.jpg" alt="跑刀项目（图片5号位）" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
