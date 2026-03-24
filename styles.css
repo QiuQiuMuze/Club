@@ -109,6 +109,16 @@ button:hover {
   border: 1px dashed rgba(255, 255, 255, 0.35);
 }
 
+#service-time-tip {
+  margin: 0 0 12px;
+  opacity: 0.9;
+}
+
+#service-night-image,
+#service-day-image {
+  display: none;
+}
+
 .close {
   position: absolute;
   right: 10px;
