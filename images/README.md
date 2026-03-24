@@ -5,5 +5,7 @@
 3. image3-placeholder.jpg → 趣味娱乐单（图片3号位）
 4. image4-placeholder.jpg → 护航保底单（图片4号位）
 5. image5-placeholder.jpg → 跑刀项目（图片5号位）
+6. image6-placeholder.jpg → 夜间客服微信（图片6号位）
+7. image7-placeholder.jpg → 白天客服微信（图片7号位）
 
 如果你想用别的文件名，请同步修改 `index.html` 里的 `src` 路径。
